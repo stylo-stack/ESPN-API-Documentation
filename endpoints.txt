@@ -26,6 +26,10 @@ One Game
     http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard/{gameId}
         -ex: (Dallas at New Orleans) http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard/401326509
 
+Summary (Including boxScore etc.)
+    https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event={gameId}
+        -ex: https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401772510
+
 
 Latest News:
     http://site.api.espn.com/apis/site/v2/sports/football/nfl/news
